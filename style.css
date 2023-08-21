@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#plano_de_fundo {
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(45deg, black, crimson);
+    text-align: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cauculadora {
+    position: absolute;  /*A posição absoluta faz com que este elemento fique ocupando somente o espaço que ele mesmo tem no seu tamanho original*/
+    background-color: rgba(0, 0, 0, 0.8); /*O "0.8" representa o alpha da cor, que trabalha com a transparênica. Vai de "0 até 1"*/
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    padding: 15px;
+    transform: translate(-50%, -50%); 
+}
+#cauculadora table {
+    margin: auto;
+}
+#cauculadora p {
+    background-color: white;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    width: 240px;
+    height: 50px;
+    font-size: 25px;
+    color: black;
+}
+.botao {
+    background-color: rgb(31, 31, 31);
+    margin: 1px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.botao:hover {
+    background-color: rgba(95, 78, 78, 0.95);
+    font-size: 2em;
+}
